@@ -1,0 +1,284 @@
+{
+  "foodMass": 1,
+  "fireFood": 20,
+  "limitSplit": 24,
+  "defaultPlayerMass": 30,
+  "defaultPlayerSprite": "default",
+  "virus": {
+    "maxVirus": 5,
+    "fill": "#33ff33",
+    "stroke": "#19D119",
+    "strokeWidth": 10,
+    "defaultMass": {
+      "from": 100,
+      "to": 150
+    },
+    "splitMass": 180
+  },
+  "bots": {
+    "active": true,
+    "maxBot": 50,
+    "speed": 50,
+    "type": "bot"
+  },
+  "bonus": {
+    "Glue": {
+      "active": true,
+      "max": 1,
+      "time": 10,
+      "radius": 3,
+      "update": true,
+      "got": {
+        "value": 2,
+        "time": 10
+      },
+      "image": {
+        "w": 100,
+        "h": 45
+      }
+    },
+    "Shield": {
+      "active": true,
+      "max": 3,
+      "time": 10,
+      "update": true,
+      "image": {
+        "w": 87,
+        "h": 100
+      }
+    },
+    "Bomb": {
+      "active": false,
+      "max": 1,
+      "time": 10,
+      "update": true,
+      "image": {
+        "w": 100,
+        "h": 81
+      }
+    },
+    "Drunk": {
+      "active": true,
+      "max": 1,
+      "time": 10,
+      "radius": 3,
+      "update": true,
+      "got": {
+        "time": 10
+      },
+      "image": {
+        "w": 42,
+        "h": 100
+      }
+    },
+    "Mega": {
+      "active": true,
+      "max": 1,
+      "time": 10,
+      "bonuses": {
+        "glue": true,
+        "freeze": true,
+        "shield": true,
+        "drunk": true,
+        "bomb": false,
+        "speed": true,
+        "x2": true,
+        "x5": false
+      },
+      "image": {
+        "w": 100,
+        "h": 92
+      }
+    },
+    "Shoot": {
+      "active": true,
+      "max": 1,
+      "time": 10,
+      "radius": 7,
+      "update": true,
+      "image": {
+        "w": 100,
+        "h": 51
+      }
+    },
+    "X2": {
+      "active": true,
+      "max": 1,
+      "time": 10,
+      "image": {
+        "w": 100,
+        "h": 42
+      }
+    },
+    "X5": {
+      "active": false,
+      "max": 1,
+      "time": 10,
+      "image": {
+        "w": 47,
+        "h": 28
+      }
+    },
+    "Extra": {
+      "time": 60
+    },
+    "Extra1": {
+      "active": true,
+      "max": 2,
+      "time": 6000,
+      "update": true,
+      "image": {
+        "w": 26,
+        "h": 36
+      }
+    },
+    "Extra2": {
+      "active": true,
+      "max": 2,
+      "time": 6000,
+      "update": true,
+      "image": {
+        "w": 18,
+        "h": 36
+      }
+    },
+    "Extra3": {
+      "active": true,
+      "max": 2,
+      "time": 6000,
+      "update": true,
+      "image": {
+        "w": 31,
+        "h": 36
+      }
+    },
+    "Extra4": {
+      "active": true,
+      "max": 2,
+      "time": 6000,
+      "update": true,
+      "image": {
+        "w": 31,
+        "h": 36
+      }
+    },
+    "Extra5": {
+      "active": true,
+      "max": 2,
+      "time": 6000,
+      "update": true,
+      "image": {
+        "w": 31,
+        "h": 36
+      }
+    },
+    "Freeze": {
+      "active": true,
+      "max": 2,
+      "time": 10,
+      "radius": 5,
+      "update": true,
+      "got": {
+        "value": 0,
+        "time": 10
+      },
+      "image": {
+        "w": 100,
+        "h": 21
+      }
+    },
+    "Speed": {
+      "active": true,
+      "max": 2,
+      "value": 10,
+      "time": 10,
+      "update": true,
+      "image": {
+        "w": 100,
+        "h": 53
+      }
+    },
+    "limit": 10,
+    "biggest": true
+  },
+  "power": {
+    "Splitter": {
+      "active": true,
+      "default": true
+    },
+    "Pusher": {
+      "active": true,
+      "default": false,
+      "radius": 5,
+      "time": 10
+    },
+    "Invisible": {
+      "active": true,
+      "default": false,
+      "time": 10
+    },
+    "Speedo": {
+      "active": true,
+      "default": false,
+      "value": 10,
+      "time": 3
+    },
+    "Slash": {
+      "active": true,
+      "default": false,
+      "radius": 7,
+      "time": 400
+    },
+    "Slower": {
+      "active": true,
+      "default": false,
+      "radius": 7,
+      "time": 4,
+      "value": 1
+    },
+    "Teleport": {
+      "active": true,
+      "default": false
+    },
+    "Wall": {
+      "active": false,
+      "default": false,
+      "radius": 5,
+      "time": 10
+    },
+    "Magneto": {
+      "active": true,
+      "default": false,
+      "radius": 5,
+      "time": 10
+    },
+    "executeInterval": 10
+  },
+  "bullets": {
+    "damage": 5,
+    "rate": 0.5,
+    "speed": 25,
+    "radius": 20,
+    "removeTime": 10
+  },
+  "gameWidth": 5000,
+  "gameHeight": 5000,
+  "adminPass": "DEFAULT",
+  "gameMass": 20000,
+  "maxFood": 250,
+  "slowBase": 4.5,
+  "logChat": 0,
+  "networkUpdateFactor": 40,
+  "maxHeartbeatInterval": 600000,
+  "foodUniformDisposition": true,
+  "virusUniformDisposition": false,
+  "newPlayerInitialPosition": "farthest",
+  "sendInterval": 150,
+  "massLossRate": 1,
+  "minMassLoss": 50,
+  "mergeTimer": 15,
+  "toggleMassState": 0,
+  "lineColor": "#000000",
+  "backgroundColor": "#ffffff",
+  "url": "/app/img/"
+}
